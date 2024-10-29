@@ -1,0 +1,80 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Lato;
+    background-color: black;
+    color: white;
+}
+
+
+.container{
+    display:flex;
+    /* height: 100%; */
+    width: 100%;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top:20px;
+    /* margin-left: 450px; */
+}
+
+.box{
+    position: relative;
+    display: flex;
+    /* justify-content:space-between; */
+    height: 130px;
+    overflow: hidden;
+    width: 100%;
+    margin-left: 350px;
+}
+
+.box .img{
+    width: 20%;
+    /* overflow:hidden; */
+    text-align: right;
+    /* background-image: url("riccardo-trimeloni-lc5iIZ7UO1w-unsplash\(1\).jpg"); */
+    /* object-fit: contain; */
+}
+
+.box .img img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+.box .content{
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+}
+
+.box .content h1{
+    position: absolute;
+    left: 21%;
+}
+
+.box .content ul{
+    width: 100%;
+    position: absolute;
+    top:20%;
+    left: 21%;
+    display: flex;
+    flex-direction: row;
+    top: 35%;
+}
+
+.box .content ul li{
+    margin-left: 20px;
+}
+
+.box .img span{
+    color: white;
+    z-index: 2;
+    background-color: black;
+    position: absolute;
+    margin-top:110px;
+    left: 16.9%;
+    bottom:6%;
+    
+}
